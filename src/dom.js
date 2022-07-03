@@ -85,7 +85,6 @@ window.dom = {
     node.addEventListener(eventName, fn);
   },
   off(node, eventName, fn) {
-    console.log(1);
     node.removeEventListener(eventName, fn);
   },
   find(selector, scope) {
